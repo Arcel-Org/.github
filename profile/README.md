@@ -36,6 +36,11 @@ Reverse tunnel built on Seam. Expose any local service through a relay you contr
 ./seamless --relay relay-ip:4443 --x25519 <key> --kem <key> http 3000
 ```
 
+### [Signet](https://github.com/North9LLC/Signet)
+
+Cryptographic photo watermarking SDK. Camera apps embed an unforgeable proof derived from the [drand](https://drand.love/) public randomness beacon at the moment the shutter fires — before the image is encoded or saved. Verification is binary and non-interactive: the Ed25519 signature and beacon data either check out or they don't. Supports iOS, Android, and C/C++ via FFI.
+
+
 ---
 
 <div align="center">
