@@ -26,8 +26,8 @@ Build cryptography and transport for the quantum-era Internet.
 
 | Project | Status | Stack | What it does |
 |---|---|---|---|
-| **[Apex Protocol](https://github.com/North9LLC/Apex)** | ✅ Production | Rust, UDP, ML-KEM768 | High-performance post-quantum encrypted transport. 247 µs handshake, 568 MiB/s throughput, multi-stream priority scheduling, built-in FEC for lossy networks. |
-| **[Ape](https://github.com/North9LLC/Ape)** | ✅ Production | Rust, UDP, ML-KEM768 | Post-quantum encrypted reverse tunnels. Connect any device to the public Internet through hybrid X25519 + ML-KEM-768 handshake with adaptive congestion control. |
+| **[Seam](https://github.com/North9LLC/Seam)** | ✅ Production | Rust, UDP, ML-KEM768 | High-performance post-quantum encrypted transport. 247 µs handshake, 568 MiB/s throughput, multi-stream priority scheduling, built-in FEC for lossy networks. |
+| **[Seamless](https://github.com/North9LLC/Seamless)** | ✅ Production | Rust, UDP, ML-KEM768 | Post-quantum encrypted reverse tunnels. Connect any device to the public Internet through hybrid X25519 + ML-KEM-768 handshake with adaptive congestion control. |
 
 ### 📸 Media Authenticity & Verification
 
@@ -81,7 +81,7 @@ AI agents and intelligence platforms.
 
 | Thread | Primary Languages |
 |---|---|
-| **Post-quantum infrastructure** | Rust (Apex, Ape), Kotlin + C/C++ (Signet) |
+| **Post-quantum infrastructure** | Rust (Seam, Seamless), Kotlin + C/C++ (Signet) |
 | **Privacy-first consumer** | Next.js + TypeScript (Relay, Search, NorthUSB web, North9Black), Kotlin + Android (NorthOS) |
 | **Quantum simulation** | Python 3.11+ (qRoute) |
 | **AI infrastructure** | Next.js + TypeScript + Fastify (Agent, Lantern) |
