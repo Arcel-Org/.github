@@ -12,18 +12,18 @@
 
 ## AI Agents
 
-### [north9](https://github.com/Arcel-Org/north9) &nbsp;·&nbsp; Sandboxed runtime + persistent memory
+### [arcel](https://github.com/Arcel-Org/arcel) &nbsp;·&nbsp; Sandboxed runtime + persistent memory
 
 Every command runs inside an isolated Docker container. Structured memory survives every `/compact` and session restart — the agent knows exactly where it left off: files touched, approaches that failed, exact commands to run next. One install wires it into Claude Code.
 
 ```sh
-curl -fsSL https://install.arcel.org/north9.sh | sh
+curl -fsSL https://install.arcel.org/arcel.sh | sh
 ```
 
 Installs 17 MCP tools. For the full 12-server suite (budget, gate, lens, index, vault, grid, scout, forge, sift, chain, autopsy, prism):
 
 ```sh
-curl -fsSL https://install.arcel.org/north9.sh | sh && python3 -m north9 --suite
+curl -fsSL https://install.arcel.org/arcel.sh | sh && python3 -m arcel --suite
 ```
 
 ### [Prism](https://github.com/Arcel-Org/Prism) &nbsp;·&nbsp; Time-travel debugger for AI agents

@@ -50,7 +50,7 @@ Zero-tracking, zero-log, zero-cloud consumer products.
 | **[Relay](https://github.com/Arcel-Org/Relay)** | Next.js + TS | ✅ Prod | End-to-end encrypted messenger for high-trust networks. Per-message ephemeral keys, 20-min TTL, encrypted-only storage, no social graph. |
 | **[Arcel Search](https://github.com/Arcel-Org/Search)** | Next.js 16 | ✅ Prod | Privacy-first metasearch. Zero tracking, zero logs, zero cookies. Aggregates Brave, Mojeek, DDG, Wikipedia with instant answers. |
 | **[NorthUSB](https://github.com/Arcel-Org/NorthUSB)** | JS/Rust CLI | ✅ Prod | Encrypted vault on USB. Passwords, TOTP, SSH keys, notes — all client-side AES-256-GCM. No server, no network. |
-| **[Arcel Black](https://github.com/Arcel-Org/North9Black)** | Next.js + TS | ✅ Prod | Premium security membership. Post-quantum infrastructure, member provisioning, threat intelligence for founders under real threat. |
+| **[Arcel Black](https://github.com/Arcel-Org/ArcelBlack)** | Next.js + TS | ✅ Prod | Premium security membership. Post-quantum infrastructure, member provisioning, threat intelligence for founders under real threat. |
 | **[NorthOS](https://github.com/Arcel-Org/NorthOS)** | Kotlin | 🚀 Alpha | GrapheneOS fork for high-threat environments. Three configurable security tiers, 27+ defensive apps, IMSI-catcher detection, zero Google. |
 
 ### 🧮 Frontier Quantum
@@ -94,7 +94,7 @@ Media Authenticity
   └─ iOS/Kotlin + C/C++ (Signet) + drand beacon + BLS signatures
   
 Privacy-First
-  ├─ Next.js + TypeScript (Relay, Search, North9Black)
+  ├─ Next.js + TypeScript (Relay, Search, ArcelBlack)
   ├─ Browser + Rust CLI (NorthUSB)
   └─ Android/Kotlin (NorthOS)
   
