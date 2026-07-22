@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🚀 North9
+# 🚀 Arcel
 
 **A venture studio building the infrastructure for a more private, more verifiable, post-classical internet.**
 
 Post-Quantum · Privacy-First · Frontier Science · Auditable Code
 
-[![Web](https://img.shields.io/badge/web-north9.org-blue)](https://north9.org)
+[![Web](https://img.shields.io/badge/web-arcel.org-blue)](https://arcel.org)
 [![License](https://img.shields.io/badge/license-MIT-green)](#license)
 [![Open Source](https://img.shields.io/badge/open%20source-by%20default-brightgreen)](#)
 
@@ -30,8 +30,8 @@ Cryptography and transport for the quantum-era Internet.
 
 | Project | Language | Status | Headline |
 |---|---|---|---|
-| **[Apex Protocol](https://github.com/North9LLC/Apex)** | Rust | ✅ Prod | **568 MiB/s** encrypted throughput + ML-KEM768 + 247 µs handshake. Multi-stream, priority-scheduled, built-in FEC. |
-| **[Ape](https://github.com/North9LLC/Ape)** | Rust | ✅ Prod | Post-quantum encrypted reverse tunnels. Hybrid X25519 + ML-KEM768 with adaptive congestion control and forward error correction. |
+| **[Apex Protocol](https://github.com/Arcel-Org/Apex)** | Rust | ✅ Prod | **568 MiB/s** encrypted throughput + ML-KEM768 + 247 µs handshake. Multi-stream, priority-scheduled, built-in FEC. |
+| **[Ape](https://github.com/Arcel-Org/Ape)** | Rust | ✅ Prod | Post-quantum encrypted reverse tunnels. Hybrid X25519 + ML-KEM768 with adaptive congestion control and forward error correction. |
 
 ### 📸 Media Authenticity
 
@@ -39,7 +39,7 @@ Cryptographic proof that digital media is real.
 
 | Project | Language | Status | Headline |
 |---|---|---|---|
-| **[Signet](https://github.com/North9LLC/Signet)** | iOS/Kotlin + C | ✅ Released | Photo watermarking SDK. Unforgeable shutter-time proof from drand beacon. Binary verification, public, non-interactive. |
+| **[Signet](https://github.com/Arcel-Org/Signet)** | iOS/Kotlin + C | ✅ Released | Photo watermarking SDK. Unforgeable shutter-time proof from drand beacon. Binary verification, public, non-interactive. |
 
 ### 🌐 Privacy-First Consumer
 
@@ -47,11 +47,11 @@ Zero-tracking, zero-log, zero-cloud consumer products.
 
 | Project | Language | Status | Headline |
 |---|---|---|---|
-| **[Relay](https://github.com/North9LLC/Relay)** | Next.js + TS | ✅ Prod | End-to-end encrypted messenger for high-trust networks. Per-message ephemeral keys, 20-min TTL, encrypted-only storage, no social graph. |
-| **[North9 Search](https://github.com/North9LLC/Search)** | Next.js 16 | ✅ Prod | Privacy-first metasearch. Zero tracking, zero logs, zero cookies. Aggregates Brave, Mojeek, DDG, Wikipedia with instant answers. |
-| **[NorthUSB](https://github.com/North9LLC/NorthUSB)** | JS/Rust CLI | ✅ Prod | Encrypted vault on USB. Passwords, TOTP, SSH keys, notes — all client-side AES-256-GCM. No server, no network. |
-| **[North9 Black](https://github.com/North9LLC/North9Black)** | Next.js + TS | ✅ Prod | Premium security membership. Post-quantum infrastructure, member provisioning, threat intelligence for founders under real threat. |
-| **[NorthOS](https://github.com/North9LLC/NorthOS)** | Kotlin | 🚀 Alpha | GrapheneOS fork for high-threat environments. Three configurable security tiers, 27+ defensive apps, IMSI-catcher detection, zero Google. |
+| **[Relay](https://github.com/Arcel-Org/Relay)** | Next.js + TS | ✅ Prod | End-to-end encrypted messenger for high-trust networks. Per-message ephemeral keys, 20-min TTL, encrypted-only storage, no social graph. |
+| **[Arcel Search](https://github.com/Arcel-Org/Search)** | Next.js 16 | ✅ Prod | Privacy-first metasearch. Zero tracking, zero logs, zero cookies. Aggregates Brave, Mojeek, DDG, Wikipedia with instant answers. |
+| **[NorthUSB](https://github.com/Arcel-Org/NorthUSB)** | JS/Rust CLI | ✅ Prod | Encrypted vault on USB. Passwords, TOTP, SSH keys, notes — all client-side AES-256-GCM. No server, no network. |
+| **[Arcel Black](https://github.com/Arcel-Org/North9Black)** | Next.js + TS | ✅ Prod | Premium security membership. Post-quantum infrastructure, member provisioning, threat intelligence for founders under real threat. |
+| **[NorthOS](https://github.com/Arcel-Org/NorthOS)** | Kotlin | 🚀 Alpha | GrapheneOS fork for high-threat environments. Three configurable security tiers, 27+ defensive apps, IMSI-catcher detection, zero Google. |
 
 ### 🧮 Frontier Quantum
 
@@ -59,7 +59,7 @@ Quantum simulation and quantum-native applications.
 
 | Project | Language | Status | Headline |
 |---|---|---|---|
-| **[qRoute](https://github.com/North9LLC/qRoute)** | Python 3.11+ | ✅ v0.1.0 | Hybrid quantum simulator. Exact expectation values on **200–1000+ qubit** circuits without approximation or GPU. Auto-routes to optimal backend. On PyPI. |
+| **[qRoute](https://github.com/Arcel-Org/qRoute)** | Python 3.11+ | ✅ v0.1.0 | Hybrid quantum simulator. Exact expectation values on **200–1000+ qubit** circuits without approximation or GPU. Auto-routes to optimal backend. On PyPI. |
 
 ### 🤖 AI Infrastructure
 
@@ -67,12 +67,12 @@ Self-hosted agents and intelligence platforms.
 
 | Project | Language | Status | Headline |
 |---|---|---|---|
-| **[Agent](https://github.com/North9LLC/Agent)** (Loop) | Next.js + Fastify | 🚀 Phase 2 | Self-hosted AI agent. Chat UI, WebSocket streaming, tool execution, session history via Redis. Phase 1 done; Phase 2 adds Docker sandboxing. |
-| **[Lantern](https://github.com/North9LLC/lantern)** | Next.js + TS | ✅ Prod | Ad intelligence platform. Monthly competitor analysis + 4 ready-to-launch creative recommendations for invite-only brands. |
+| **[Agent](https://github.com/Arcel-Org/Agent)** (Loop) | Next.js + Fastify | 🚀 Phase 2 | Self-hosted AI agent. Chat UI, WebSocket streaming, tool execution, session history via Redis. Phase 1 done; Phase 2 adds Docker sandboxing. |
+| **[Lantern](https://github.com/Arcel-Org/lantern)** | Next.js + TS | ✅ Prod | Ad intelligence platform. Monthly competitor analysis + 4 ready-to-launch creative recommendations for invite-only brands. |
 
 ---
 
-## Why North9?
+## Why Arcel?
 
 | Principle | What it means |
 |---|---|
@@ -109,9 +109,9 @@ AI Infrastructure
 
 ## Get in touch
 
-- **Web** — [north9.org](https://north9.org)
-- **Membership** — [north9.org/become-member](https://north9.org/become-member)
-- **Contact** — [north9.org/contact](https://north9.org/contact)
+- **Web** — [arcel.org](https://arcel.org)
+- **Membership** — [arcel.org/become-member](https://arcel.org/become-member)
+- **Contact** — [arcel.org/contact](https://arcel.org/contact)
 
 Building at the frontier? Privacy infrastructure, post-quantum systems, applied quantum, AI-native products? Let's talk.
 
@@ -132,14 +132,14 @@ Code audits and security reports are welcome.
 
 <div align="center">
 
-**Built with care · North9 LLC**
+**Built with care · Arcel LLC**
 
-[GitHub](https://github.com/North9LLC) · [Web](https://north9.org)
+[GitHub](https://github.com/Arcel-Org) · [Web](https://arcel.org)
 
 </div>
 
 <!--
-This file lives at `README.md` in the `North9LLC/.github` repo
-and renders as the public landing page at github.com/North9LLC.
+This file lives at `README.md` in the `Arcel-Org/.github` repo
+and renders as the public landing page at github.com/Arcel-Org.
 Last updated: April 2026
 -->
