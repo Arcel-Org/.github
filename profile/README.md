@@ -10,28 +10,6 @@
 
 ---
 
-## AI Agents
-
-### [arcel](https://github.com/Arcel-Org/arcel) &nbsp;·&nbsp; Sandboxed runtime + persistent memory
-
-Every command runs inside an isolated Docker container. Structured memory survives every `/compact` and session restart — the agent knows exactly where it left off: files touched, approaches that failed, exact commands to run next. One install wires it into Claude Code.
-
-```sh
-curl -fsSL https://install.arcel.org/arcel.sh | sh
-```
-
-Installs 17 MCP tools. For the full 12-server suite (budget, gate, lens, index, vault, grid, scout, forge, sift, chain, autopsy, prism):
-
-```sh
-curl -fsSL https://install.arcel.org/arcel.sh | sh && python3 -m arcel --suite
-```
-
-### [Prism](https://github.com/Arcel-Org/Prism) &nbsp;·&nbsp; Time-travel debugger for AI agents
-
-Record every LLM call and tool execution into a compact session file. Replay it offline, fork at any frame with a different input, and diff what changed. Git bisect for AI agents.
-
----
-
 ## Post-Quantum Networking
 
 ### [Seam](https://github.com/Arcel-Org/Seam) &nbsp;·&nbsp; Post-quantum UDP transport
