@@ -20,14 +20,6 @@ Hybrid Noise_XX + ML-KEM-768 handshake. Multi-stream mux, Reed-Solomon FEC, DDoS
 curl -fsSL https://install.arcel.org/seam.sh | sh
 ```
 
-### [Seamless](https://github.com/Arcel-Org/Seamless) &nbsp;·&nbsp; Post-quantum reverse tunnels
-
-Expose any local service through a relay you control — HTTP by subdomain, raw TCP by port. Client dials out through NAT, no port forwarding required. Built on Seam — every byte is post-quantum encrypted end-to-end.
-
-```sh
-curl -fsSL https://install.arcel.org/seamless.sh | sh
-```
-
 ---
 
 ## Cryptographic Systems
